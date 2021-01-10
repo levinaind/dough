@@ -1,0 +1,111 @@
+<html>
+    <head>
+    <title>Manage Debit</title>
+    <style>
+      body {
+        width: 1200px;
+        height: 630px;
+        background: linear-gradient(to bottom, white 70%, #404040 15%);
+      }
+      h1 {display:inline;}
+      h2 {display:inline;}
+      input[type=submit] {
+        position: relative;
+        width: 190px;
+        height: 50px;
+        background: #DBEFE8;
+        border: 1px solid ;
+        border-color: white;
+        border-radius: 7%;
+      }
+       
+      input[type=radio] {
+
+        
+        position: relative;
+        width: 150px;
+        height: 20px;
+        font-family: 
+        border: 1px solid ;
+        border-color: white;
+        border-radius: 7%;
+        
+      }input[type=text] {
+        left: 200px;
+        width: 250px;
+        height: 50px;
+        border-radius: 8%;
+        border: 1px solid #eee;
+        top: 190px;
+        border-color: #7BA5A8;
+
+      }
+      
+    
+    </style>
+  </head>
+  <img src="https://cdn.glitch.com/4ec21e10-446e-4cc6-ba2c-b250d0f6d003%2FLogo.png?v=1610244112862" alt="dough" style="position:relative;left:10px;top:10px;width:95px;height:46px;">
+  <br><br><br>
+          <span style="width:70px;display:inline-block"></span>
+  
+  <h1 style="font-family: sans-serif; font-size: 20px; color: black; left: 50px; top 300px">
+Transfer your Cash to your Debit!</h1><br><br><br>
+  
+  
+  <form method="post" action="/result3">
+              <span style="width:130px;display:inline-block"></span>
+
+<label for="num" style="font-family: Georgia; font-size: 20px; color: black; left: 50px; top 300px" >$ </label>
+<input type="text" id="amount" name="amount"><br><br><br>
+    
+              <span style="width:20px;display:inline-block"></span>
+
+<input type="radio" id="Chequing" name="savings" value="chequing" checked="checked">
+    <label for="chequing"  style="font-family: Georgia; font-size: 20px; color: #A6D7DB; left: 50px; top 300px">Transfer to </label>
+
+<label for="chequing"  style="font-family: Georgia; font-size: 20px; color: #7BA5A8; left: 50px; top 300px">Chequing Account</label><br>
+<br>
+              <span style="width:20px;display:inline-block"></span>
+
+    
+    
+<input type="radio" id="Technology" name="savings" value="savings">
+    <label for="chequing"  style="font-family: Georgia; font-size: 20px; color: #A6D7DB; left: 50px; top 300px">Transfer to </label>
+
+<label for="technology" style="font-family: Georgia; font-size: 20px; color: #7BA5A8; left: 50px; top 300px">Savings Account</label><br>
+    <p><br>
+                <span style="width:150px;display:inline-block"></span> 
+
+        <input type="submit"  value = "Complete Transaction">
+      
+      </p>
+  </form>
+  <br><br><br>
+                  <span style="width:70px;display:inline-block"></span> 
+
+ 
+   <h2 style="font-family: calibri; font-size: 20px;positon:relative;color: white; left: 60px; text-align: bottom">
+      Chequing Account Balance:
+    </h2>
+        <span style="width:50px;display:inline-block"></span>
+
+    <h2 style="font-family: sans-serif; font-size: 21px;positon:relative;color: white; left: 60px; text-align: bottom">
+      $ {{ chequing }}
+    </h2>
+        <span style="width:160px;display:inline-block"></span>
+
+
+    <h2 style="font-family: calibri; font-size: 20px;positon:relative;color: white; left: 60px; text-align: bottom">
+      Savings Account Balance:
+    </h2>
+        <span style="width:50px;display:inline-block"></span>
+
+    <h2 style="font-family: sans-serif; font-size: 21px;positon:relative;color: white; left: 60px; text-align: bottom">
+      $ {{ savings }}
+    </h2>
+  <img src="https://cdn.glitch.com/4ec21e10-446e-4cc6-ba2c-b250d0f6d003%2Fbank.png?v=1610244118373" alt="mall" style="position:absolute;top:175px;right:230px; width:272; height:279">
+
+  <img src="https://cdn.glitch.com/4ec21e10-446e-4cc6-ba2c-b250d0f6d003%2FTrees%204.png?v=1610244176425" alt="tree" style="position:absolute;top:270px;right:80px; width:132; height:179">
+  
+  
+</html>
